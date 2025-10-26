@@ -47,4 +47,5 @@ $ sudo ./updateWhaticket
 $ sudo chmod +x updateWhatsapp-web
 
 $ sudo ./updateWhatsapp-web
+
 ```
