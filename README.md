@@ -41,3 +41,8 @@ Make it executable and run it:
 chmod +x updateWhaticket
 ./updateWhaticket
 ```
+
+```bash
+chmod +x updateWhatsapp-web
+./updateWhatsapp-web
+```
