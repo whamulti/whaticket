@@ -17,8 +17,7 @@ nano updateWhaticket
 #!/bin/bash
 echo "Updating Whaticket, please wait."
 
-cd ~
-cd whaticket
+git reset --hard
 git pull
 cd backend
 npm install
@@ -38,8 +37,10 @@ echo "Update finished. Enjoy!"
 Make it executable and run it:
 
 ```bash
-chmod +x updateWhaticket
-./updateWhaticket
+sudo chmod +x updateWhaticket
+
+sudo ./updateWhaticket
+
 ```
 
 ```bash

@@ -1,8 +1,6 @@
 #!/bin/bash
 echo "Updating Whatsapp-web, please wait."
 
-cd ~
-cd Teste3
 cd backend
 rm -rf .wwebjs*
 npm r whatsapp-web.js
