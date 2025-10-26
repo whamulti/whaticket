@@ -37,13 +37,14 @@ echo "Update finished. Enjoy!"
 Make it executable and run it:
 
 ```bash
-sudo chmod +x updateWhaticket
+$ sudo chmod +x updateWhaticket
 
-sudo ./updateWhaticket
+$ sudo ./updateWhaticket
 
 ```
 
 ```bash
-chmod +x updateWhatsapp-web
-./updateWhatsapp-web
+$ sudo chmod +x updateWhatsapp-web
+
+$ sudo ./updateWhatsapp-web
 ```
