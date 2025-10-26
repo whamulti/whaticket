@@ -1,8 +1,9 @@
 #!/bin/bash
-echo "Updating Whaticket, please wait."
+echo "Updating Teste3, please wait."
 
 cd ~
-cd whaticket
+cd Teste3
+git reset --hard
 git pull
 cd backend
 npm install
